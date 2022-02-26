@@ -10,6 +10,23 @@ body {
   color: #fff;
 }
 
+html {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -80,4 +97,19 @@ p + p {
 
 .bg {
   max-height: 100vh;
+}
+
+.not-war {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  background-color: black;
+  line-height: 1;
+}
+
+.not-war h1 {
+  text-transform: uppercase;
+  text-align: center;
 }
