@@ -98,18 +98,3 @@ p + p {
 .bg {
   max-height: 100vh;
 }
-
-.not-war {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: white;
-  background-color: black;
-  line-height: 1;
-}
-
-.not-war h1 {
-  text-transform: uppercase;
-  text-align: center;
-}
